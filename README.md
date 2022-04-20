@@ -37,7 +37,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 | CSS | Was used to add custom styling for the app |
 |HTML5| Was used to create the structure of the website |
 |AngularCli| to initialize, develop, scaffold, and maintain Angular applications directly from a command shell. |
-| Javascript | Was use to add functionality |
+| Javascript | Was used to add functionality |
 
 ## Contacts
 
