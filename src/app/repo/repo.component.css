@@ -1,0 +1,35 @@
+#rp{
+    margin:100px;
+    text-align: center;
+    margin: auto;
+    margin:100px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color:white
+}
+.ed{
+    font-size: 20px;
+}
+.edd{
+    color:white;
+}
+#check11{
+    padding:100px;
+    max-width: 70%;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: white;
+    margin: auto;
+}
+#bt1{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+}
+#check{
+    max-width: 50%;
+
+}
