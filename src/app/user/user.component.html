@@ -1,0 +1,36 @@
+<h1 class="texted">Surf Github!</h1>
+<p class="ed1">Please Enter Github Username Below</p>
+<div class="card" id="check1">
+<form  class="search-form"(ngSubmit)='getUser()'>
+  <div class="form-group" >
+    <input type="text" class="form-control" placeholder="Search github user" [(ngModel)]="username" name="username" id="check">
+    <br>
+    <button type="submit" class="btn" id="bt1">search me</button>
+  </div>
+</form>
+</div>
+<div *ngIf= 'user'>
+        <div class="card" id="jb">
+            <div class="card-body" id="flex">
+          <img src="{{user.avatar_url}}" id="cir"  alt="userphoto">
+          <h2 class="edit">{{user.login}}</h2>
+          <p class="edit1">Number of followers: {{user.followers}}</p>
+          <p>Number following: {{user.following}}</p>
+        </div>
+          </div>  
+          <p class="ed">Repositories</p>       
+            <div id="rep" *ngFor="let repo of repos ">
+        <div class="card-body" id="check2">
+          <p class="card-text">Repositort Name: {{repo.name}}</p>
+          <br>
+          <p class="card-text">More Details
+              <br>
+              {{repo.description}}</p>
+              <br>
+          <a href="{{repo.html_url}}" class="btn" id="bt1">Check Github</a>
+        </div>
+      <!-- </div> -->
+      </div>
+      
+  
+
