@@ -1,3 +1,6 @@
+# Overview
+
+This website allows a user to enter a github username and the selected infomation is displayed. The user can also search a repository on the app and it displays the particular repository.
 # Users
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
@@ -25,3 +28,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Technologies
+| Technology | Purpose |
+|--------- | ----------|
+| Bootstrap| Was used to style the app |
+| CSS | Was used to add custom styling for the app |
+|HTML5| Was used to create the structure of the website |
+|AngularCli| to initialize, develop, scaffold, and maintain Angular applications directly from a command shell. |
+| Javascript | Was use to add functionality |
+
+## Contacts
+
+Reach me at [maureengichuki@really greatsite]
+
+## Access
+
+You can access the site at [https://maureengichuki.github.io/githubsearch/]
