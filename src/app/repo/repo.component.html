@@ -1,0 +1,22 @@
+<h3 class="edd">You Can Search Repos Here</h3>
+<div class="card" id="check11">
+<div class="container">
+    <form (ngSubmit)='getUserRepo()'>
+        <div class="form-group">
+        <input type="text" name="searchname" [(ngModel)]="repo" id="check" placeholder="enter repo name">  
+        </div>
+        <br>
+        <button type="submit" class="btn" id="bt1">search me</button>
+        
+    </form>
+</div> 
+</div>
+    <div class="card" id="rp" *ngFor="let repo of repos">
+    <div class="card-text">
+        <p class="ed"> Repository Details </p>
+        <p class="ed">{{repo.name}}</p>
+        <p class="ed">{{repo.id}}</p>
+        <p class="ed">{{repo.description}}</p>
+  </div>
+  </div>
+
